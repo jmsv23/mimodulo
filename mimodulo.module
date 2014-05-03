@@ -4,7 +4,7 @@
  *
  * This hook declares what blocks are provided by the module.
  */
-function carrusel_block_info() {
+function mimodulo_block_info() {
   $blocks['mimodulo_bloque_1'] = array(
     'info' => 'Mi bloque numero 1'
   );
