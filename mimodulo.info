@@ -1,0 +1,6 @@
+name = Mi Modulo
+description = Mi primer modulo drupal
+package = custom
+core = 7.x
+dependencies[] = block
+version = "1.0"
