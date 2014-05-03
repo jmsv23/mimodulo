@@ -10,3 +10,17 @@ function mimodulo_block_info() {
   );
   return $blocks;
 }
+
+/**
+ * Implements hook_block_view().
+ *
+ * This hook generates the contents of the blocks themselves.
+ */
+function mimodulo_block_view($delta = '') {
+
+	if($delta == 'mimodulo_bloque_1') {
+		$block['subject'] = 'Mi Modulo';
+		$block['content'] = '<h1>Este es el contenido del bloque</h1>';
+	}
+  return $block;
+}
