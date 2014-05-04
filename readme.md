@@ -11,9 +11,9 @@ git clone https://github.com/jmsv23/mimodulo.git
 
 El repositorio tiene el codigo final el el branch master pero cuenta con otras brances para seguir paso a paso los cambios que se ven en el video, esto lo podemos lograr moviendonos de una branch a otra de la siguiente manera:
 
-'''
+```
 git checkout -f paso-1
-'''
+```
 
 hay que tomar en cuenta que tenemos los pasos del 1 al 4.
 
